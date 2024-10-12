@@ -1,1 +1,17 @@
-# LeetCode Problems\n\nThis folder contains solutions to LeetCode problems.
+### 392. Is Subsequence
+給定兩個字串 `s` 和 `t`，如果 `s` 是 `t` 的子序列，則返回 `true`，否則返回 `false`。
+
+子序列是指可以從原始字串中通過刪除某些（或不刪除任何）字符，且不改變剩餘字符相對位置所形成的新字串。例如，`"ace"` 是 `"abcde"` 的子序列，而 `"aec"` 則不是。
+
+
+
+---
+
+### 11. Container With Most Water
+給定一個長度為 `n` 的整數數組 `height`，有 `n` 條垂直線，每條線的兩個端點分別位於 \((i, 0)\) 和 \((i, \text{height}[i])\)。
+
+找到兩條線，與 x 軸一起形成一個容器，使得這個容器能夠容納最多的水。
+
+返回容器能儲存的最大水量。
+
+注意：容器不能傾斜。
